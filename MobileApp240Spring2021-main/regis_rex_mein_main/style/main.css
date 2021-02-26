@@ -48,7 +48,7 @@ body form button {
     font-family: 'Roboto Condensed', sans-serif;
     border-radius: 1em;
     color: black;
-    background-color: gold;
+    background-color: #d9b525;
     font-size: 1em;
     margin-top: 20px;
     padding-left: 30px;
@@ -60,8 +60,9 @@ body form button {
     font-weight: bold;
 }
 footer {
+    margin-top: 100px;
     background: #B9251f;
-    font-size: .8em;
+    font-size: .6em;
     font-family: 'Roboto Condensed', sans-serif;
     color: #121212;
 }
@@ -69,7 +70,7 @@ footer a {
     background: #B9251f;
     font-family: 'Roboto Condensed', sans-serif;
     color: #121212;
-    padding: 10px;
+    padding-right: 10px;
 }
 @media all and (max-width: 1024px) {
     html {
