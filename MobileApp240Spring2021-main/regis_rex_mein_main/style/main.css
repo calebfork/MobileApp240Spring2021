@@ -59,10 +59,17 @@ body form button {
     font-size: .8em;
     font-weight: bold;
 }
-.footer, a {
-    font-size: .7em;
+footer {
+    background: #B9251f;
+    font-size: .8em;
     font-family: 'Roboto Condensed', sans-serif;
     color: #121212;
+}
+footer a {
+    background: #B9251f;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #121212;
+    padding: 10px;
 }
 @media all and (max-width: 1024px) {
     html {
