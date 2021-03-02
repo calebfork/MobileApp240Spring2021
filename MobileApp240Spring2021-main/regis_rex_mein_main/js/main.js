@@ -1,24 +1,11 @@
 //js main file
 
 function button_alert() {//needs $php call
-    window.alert("Here is a page response example");
-}
-
-
+    window.alert("Here is a page response example");}
 var window_object_reference;
 var window_features = "menubar=no,location=no,resizable=no,scrollbars=no,status=no";
-
 function open_roll_popup() {//pop-out window generation
-    window_object_reference = window.open("https://www.cnn.com/", "CNN_WindowName", window_features)
-}
-
-
-
-
-
-
-//
-//
+    window_object_reference = window.open("https://www.cnn.com/", "CNN_WindowName", window_features)}
 //archaic js
 /*var navbar = '<div class="btn-toggle-nav" onclick="navButton()">|||</div>\
 	<ul>\
@@ -31,11 +18,8 @@ function open_roll_popup() {//pop-out window generation
 			<ul><a href="index.html">submenu3</a></ul>\
 		</li>\
 	</ul>';
-
 function loadNav() {//loads navbar
-	document.getElementById("nav").innerHTML = navbar;
-}
-*/
+	document.getElementById("nav").innerHTML = navbar;}*/
 var foot1 = '<footer>\
     <a href="index.html">Home</a><a href="about.html">About Us</a><a href="liscense.html">Licensing</a><br>\
    <p>\
@@ -44,11 +28,7 @@ var foot1 = '<footer>\
       Creative Commons License.**\
    </p>\
 </footer>';
-
 function loadFoot() {//loads footer
-	document.getElementById("foot1").innerHTML = foot1;
-}
-
+	document.getElementById("foot1").innerHTML = foot1;}
 function navButton(){
-	let x = document.getElementById("");
-}
+	let x = document.getElementById("");}
