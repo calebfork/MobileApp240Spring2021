@@ -37,12 +37,12 @@ function loadNav() {//loads navbar
 }
 */
 var foot1 = '<footer>\
+    <a href="index.html">Home</a><a href="about.html">About Us</a><a href="liscense.html">Licensing</a><br>\
    <p>\
       Ozarks Technical Community College 2021. Unless otherwise \
       indicated, all content on this web site is licensed under a \
       Creative Commons License.**\
    </p>\
-    <a href="index.html">Home</a><a href="about.html">About Us</a><a href="liscense.html">Licensing</a><br>\
 </footer>';
 
 function loadFoot() {//loads footer

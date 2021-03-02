@@ -16,7 +16,7 @@ body {
     color: #B9251f;
     font-weight: bold;
     text-align: center;
-    background-color: #FFF;
+    background-color: lavenderblush;
     /*background-color: #14cd78;*/
     border-radius: 20px;
 }
@@ -25,7 +25,7 @@ h2 {
     color: #B9251f;
     font-weight: bold;
     text-align: center;
-    background-color: #FFF;
+    background-color: lavenderblush;
     /*background-color: #14cd78;*/
     border-radius: 20px;
 }
@@ -43,6 +43,15 @@ body form label {
 body form input {
     border-radius: .6em;
 }
+body form select {
+    border-radius: .6em;
+    font-size: .9em;
+    font-family: 'Roboto Condensed', sans-serif;
+    text-align: center;
+    align-self: center;
+    padding-left: 30px;
+    padding-right: 20px;
+}
 body form button {
     text-align: center;
     font-family: 'Roboto Condensed', sans-serif;
@@ -55,7 +64,7 @@ body form button {
     padding-right: 30px;
 }
 .field1 {
-    color: #FFF;
+    color: lavenderblush;
     font-size: .8em;
     font-weight: bold;
 }
@@ -72,6 +81,9 @@ footer a {
     color: #121212;
     padding-right: 10px;
 }
+footer:hover{
+    color:lavenderblush;
+}
 @media all and (max-width: 1024px) {
     html {
         font-size: .9em;
@@ -80,17 +92,17 @@ footer a {
         visibility: hidden;
     }
     .footer a {
-    color:aqua;
+    color:silver;
     }
 }
 .abouttitle{
     text-align: center;
-    color: white;
+    color: lavenderblush;
     font-size: 1em;
 }
 
 .aboutbox{
-    background-color: #fff;
+    background-color: lavenderblush;
     border-radius: 20px;
     padding: 20px;
 }

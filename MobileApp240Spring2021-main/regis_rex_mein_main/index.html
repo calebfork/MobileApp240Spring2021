@@ -42,21 +42,43 @@
 <body  onload="loadFoot()">    
     <form class="field1">
         <label for="food_input">Food Type</label>
-        <br>
-        <input type="text" id="food_input" name="food_input">
-        <br>
+    <br>
+        <select name="food" id="food">
+            <option value="hispanic">&#127790; Hispanic</option>
+            <option value="burger">&#127828; Burgers</option>
+            <option value="pizza">&#127829;  Pizza</option>
+            <option value="sushi">&#127843; Sushi</option>
+            <option value="asian">&#127836; Asian</option>
+            <option value="italian">&#127837; Italian</option>
+            <option value="bfast">&#127859; Breakfast</option>
+            <option value="seafood">&#127844; Seafood</option>
+        </select>
+    <br>
         <label for="rest_input">Restaurant Type</label>
-        <br>
-        <input type="text" id="rest_input" name="rest_input">
-        <br> 
+    <br>
+        <select name="rest" id="rest">
+            <option value="qsr">&#128664; Quick</option>
+            <option value="sitdown">&#127869; Seated</option>
+            <option value="upscale">&#127870; Upscale</option>
+        </select>
+    <br> 
         <label for="price_input">Price Range</label>
-        <br>
-        <input type="text" id="price_input" name="price_input">
-        <br>
+    <br>
+        <select name="price" id="price">
+            <option value="1dol">&#128178;</option>
+            <option value="2dol">&#128178;&#128178;</option>
+            <option value="3dol">&#128178;&#128178;&#128178;</option>
+        </select>
+    <br>
         <label for="dist_input">Distance</label>
-        <br>
-        <input type="text" id="dist_input" name="dist_input">
-        <br>
+    <br>
+        <select name="dist" id="dist">
+            <option value="less3">&#8810; 3 mi</option>
+            <option value="3to5">3 - 5 mi</option>
+            <option value="5to10">5 - 10 mi</option>
+            <option value="more10">10 &#8810; mi</option>
+        </select>
+    <br>
         <button onclick="roll_button()">ROLL!</button>
         <!-- ROLL! / EAT! / SNACK! / FEAST! a random one of these could be selected every time for the button-->
     </form>
