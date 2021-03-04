@@ -21,7 +21,7 @@ function open_roll_popup() {//pop-out window generation
 function loadNav() {//loads navbar
 	document.getElementById("nav").innerHTML = navbar;}*/
 var foot1 = '<footer>\
-    <a href="index.html">Home</a><a href="about.html">About Us</a><a href="liscense.html">Licensing</a><br>\
+    <a href="index.html">Home</a><a href="about.html">About Us</a><a href="license.html">Licensing</a><br>\
    <p>\
       Ozarks Technical Community College 2021. Unless otherwise \
       indicated, all content on this web site is licensed under a \
